@@ -3,7 +3,6 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import include, path
 
-
 # path('recipes', include('recipes.urls_app')) // cria um subdominio
 urlpatterns = [
     path('admin/', admin.site.urls),
