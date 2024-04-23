@@ -7,4 +7,5 @@
                 {% include 'recipes/partials/recipe.html' %}
             {% endfor %}
         </div>
+        {% include "recipes/partials/pagination.html" with page_obj=recipes %}
     {% endblock content %}
